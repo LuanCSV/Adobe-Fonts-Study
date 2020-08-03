@@ -1,4 +1,6 @@
-
+section{
+    background-color: white;
+}
 .header-section{
     text-align: center;
     padding: 40px;
@@ -17,7 +19,7 @@
     margin: 0px 25px;
 }
 .cards mat-card{
-    width: 25%;
+    width: 18%;
     max-width: 320px;
     margin: auto;
     cursor: pointer;
@@ -28,38 +30,23 @@ hr {
 mat-card-title{
     font-size: medium;
 }
-mat-card-actions button{
-    cursor: pointer;
-    float: right;
-    background-color: #1473e6;
-    border-radius: 50px;
-    border: 2px solid#1473e6;
-    outline: none;
+mat-icon{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
     font-weight: bolder;
-    color: white;
-    margin-right: 15px;
-    margin-top: 5px;
-    padding: 3px 12px;
-    transition: .2s;
 }
-mat-card-actions button:hover{
-    background-color: #1059b3;
-    border: 2px solid#1059b3;
+.icon-favorite{
+    color: #e34850;
+}
+.icon-share:hover{
+    color:#4890e3;
 }
 
-.instruction-cards{
-    margin: auto;
-    width: 25%;
-    text-align: center;
-    color: #4b4b4b;
-}
-.instruction-cards h4{
-    color: #378ef0;
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-.instruction-cards img{
-    margin-bottom: 5px;
+mat-card-actions button{
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
 }
 
 .button-div{
@@ -67,7 +54,7 @@ mat-card-actions button:hover{
     text-align: center;
     padding: 50px 0px;
 }
-.button-div button{
+button{
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 50px;
@@ -78,7 +65,7 @@ mat-card-actions button:hover{
     padding: 3px 12px;
     transition: .2s;
 }
-.button-div button:hover{
+button:hover{
     background-color: #4b4b4b;
     border: 2px solid#4b4b4b;
     color: white;
@@ -94,8 +81,20 @@ mat-card-actions button:hover{
         margin-bottom: 20px;
         width: 100%;
     }
-    .instruction-cards{
-        margin-top: 20px;
-        width: 70%;
+}
+
+@media (max-width: 1200px){
+    br{
+        display: none;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .cards mat-card{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    img{
+        height: 100px;
     }
 }

@@ -19,6 +19,9 @@ import { SearchComponent } from './components/search/search.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BannerComponent } from './components/body/banner/banner.component';
 import { MainContentComponent } from './components/body/main-content/main-content.component';
+import { FontsSectionComponent } from './components/body/fonts-section/fonts-section.component';
+import { PacksSectionComponent } from './components/body/packs-section/packs-section.component';
+import { LearnSectionComponent } from './components/body/learn-section/learn-section.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { MainContentComponent } from './components/body/main-content/main-conten
     SearchComponent,
     FooterComponent,
     BannerComponent,
-    MainContentComponent
+    MainContentComponent,
+    FontsSectionComponent,
+    PacksSectionComponent,
+    LearnSectionComponent
   ],
   imports: [
     BrowserModule,

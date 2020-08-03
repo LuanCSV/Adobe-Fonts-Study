@@ -16,36 +16,6 @@
     display: flex;
     margin: 0px 25px;
 }
-.cards mat-card{
-    width: 25%;
-    max-width: 320px;
-    margin: auto;
-    cursor: pointer;
-}
-hr {
-    border: .5px solid rgba(65, 65, 65, 0.109);
-}
-mat-card-title{
-    font-size: medium;
-}
-mat-card-actions button{
-    cursor: pointer;
-    float: right;
-    background-color: #1473e6;
-    border-radius: 50px;
-    border: 2px solid#1473e6;
-    outline: none;
-    font-weight: bolder;
-    color: white;
-    margin-right: 15px;
-    margin-top: 5px;
-    padding: 3px 12px;
-    transition: .2s;
-}
-mat-card-actions button:hover{
-    background-color: #1059b3;
-    border: 2px solid#1059b3;
-}
 
 .instruction-cards{
     margin: auto;
@@ -89,10 +59,6 @@ mat-card-actions button:hover{
     }
     .cards{
         flex-wrap: wrap;
-    }
-    .cards mat-card{
-        margin-bottom: 20px;
-        width: 100%;
     }
     .instruction-cards{
         margin-top: 20px;

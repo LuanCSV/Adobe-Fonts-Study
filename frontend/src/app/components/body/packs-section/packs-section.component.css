@@ -1,4 +1,6 @@
-
+section{
+    background-color: white;
+}
 .header-section{
     text-align: center;
     padding: 40px;
@@ -47,20 +49,6 @@ mat-card-actions button:hover{
     border: 2px solid#1059b3;
 }
 
-.instruction-cards{
-    margin: auto;
-    width: 25%;
-    text-align: center;
-    color: #4b4b4b;
-}
-.instruction-cards h4{
-    color: #378ef0;
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-.instruction-cards img{
-    margin-bottom: 5px;
-}
 
 .button-div{
     width: 100%;
@@ -93,9 +81,5 @@ mat-card-actions button:hover{
     .cards mat-card{
         margin-bottom: 20px;
         width: 100%;
-    }
-    .instruction-cards{
-        margin-top: 20px;
-        width: 70%;
     }
 }
