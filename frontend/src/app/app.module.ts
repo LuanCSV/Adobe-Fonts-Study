@@ -10,7 +10,8 @@ import {
   MatToolbarModule,
   MatButtonModule,
   MatSidenavModule,
-  MatListModule
+  MatListModule,
+  MatTooltipModule
 } from '@angular/material';
 
 import { SearchComponent } from './components/search/search.component';
@@ -34,7 +35,8 @@ import { BannerComponent } from './components/body/banner/banner.component';
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
