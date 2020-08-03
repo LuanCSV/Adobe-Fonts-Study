@@ -11,12 +11,14 @@ import {
   MatButtonModule,
   MatSidenavModule,
   MatListModule,
-  MatTooltipModule
+  MatTooltipModule,
+  MatCardModule
 } from '@angular/material';
 
 import { SearchComponent } from './components/search/search.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BannerComponent } from './components/body/banner/banner.component';
+import { MainContentComponent } from './components/body/main-content/main-content.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { BannerComponent } from './components/body/banner/banner.component';
     MainNavComponent,
     SearchComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    MainContentComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import { BannerComponent } from './components/body/banner/banner.component';
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

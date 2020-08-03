@@ -61,13 +61,11 @@ mat-icon{
     margin-right: 10px;
     font-size: 12px;
 }
-.deep-footer div{
-    
-}
 ul{
     display: flex;
     position: relative;
     margin: auto;
+    padding-right: 50px;
 }
 ul li{
     margin-left: 10px;
@@ -102,7 +100,7 @@ ul li{
         flex-wrap: wrap;
     }
     .help-links div{
-        width: 150px;
-        margin-top: 20px;
+        width: 40%;
+        margin: 20px auto;
     }
 }
