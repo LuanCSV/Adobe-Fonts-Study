@@ -22,6 +22,7 @@ import { MainContentComponent } from './components/body/main-content/main-conten
 import { FontsSectionComponent } from './components/body/fonts-section/fonts-section.component';
 import { PacksSectionComponent } from './components/body/packs-section/packs-section.component';
 import { LearnSectionComponent } from './components/body/learn-section/learn-section.component';
+import { FoundriesSectionComponent } from './components/body/foundries-section/foundries-section.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { LearnSectionComponent } from './components/body/learn-section/learn-sec
     MainContentComponent,
     FontsSectionComponent,
     PacksSectionComponent,
-    LearnSectionComponent
+    LearnSectionComponent,
+    FoundriesSectionComponent
   ],
   imports: [
     BrowserModule,

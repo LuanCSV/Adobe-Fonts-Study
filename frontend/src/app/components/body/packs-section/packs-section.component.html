@@ -4,24 +4,10 @@
     <p>Fonts that work together naturally, whether with a <br> project-themed focus or just for inspiration.</p>
   </div>
   <div class="cards">    
-    <mat-card>
-      <img mat-card-image src="https://typekit.com/cloudfront_blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYzA9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--49c093da752db1222e9b8b91f3dbdda12987d366/Build-a-Brand-750-430.jpg">
-      <mat-card-title>Build a Brand</mat-card-title>
-      <mat-card-subtitle>9 faves from designer Tad Carpenter</mat-card-subtitle>
-      <hr>
-      <mat-card-actions><button>View Pack</button></mat-card-actions>
-    </mat-card>
-    <mat-card>
-      <img mat-card-image src="https://typekit.com/cloudfront_blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYzA9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--49c093da752db1222e9b8b91f3dbdda12987d366/Build-a-Brand-750-430.jpg">
-      <mat-card-title>Build a Brand</mat-card-title>
-      <mat-card-subtitle>9 faves from designer Tad Carpenter</mat-card-subtitle>
-      <hr>
-      <mat-card-actions><button>View Pack</button></mat-card-actions>
-    </mat-card>
-    <mat-card>
-      <img mat-card-image src="https://typekit.com/cloudfront_blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYzA9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--49c093da752db1222e9b8b91f3dbdda12987d366/Build-a-Brand-750-430.jpg">
-      <mat-card-title>Build a Brand</mat-card-title>
-      <mat-card-subtitle>9 faves from designer Tad Carpenter</mat-card-subtitle>
+    <mat-card *ngFor="let card of cards">
+      <img mat-card-image src="{{ card.packImg }}">
+      <mat-card-title>{{ card.packTitle }}</mat-card-title>
+      <mat-card-subtitle>{{ card.packSub }}</mat-card-subtitle>
       <hr>
       <mat-card-actions><button>View Pack</button></mat-card-actions>
     </mat-card>
