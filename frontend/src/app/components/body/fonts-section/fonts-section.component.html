@@ -3,22 +3,22 @@
     <h3>Lose yourself in letters</h3>
     <p>Did we mention there are thousands of fonts? Search by name if you know<br> what you want, or use our filters to sort by specific characteristics.</p>
   </div>
-  <div class="cards">    
-    <mat-card>
-      <img mat-card-image src="https://increasify.com.au/wp-content/uploads/2016/08/default-image.png">
-      <mat-card-title>Acumin</mat-card-title>
+  <div class="cards" >    
+    <mat-card *ngFor="let card of cards">
+      <img mat-card-image src={{card.fontImg}}>
+      <mat-card-title>{{ card.fontTitle }}</mat-card-title>
       <mat-card-subtitle>
-        9 faves from designer Tad Carpenter
-        <p>44 fonts • 86 fonts with CC</p>
+        {{ card.fontSubtitle}}
+        <p>{{ card.fontInfo }}</p>
       </mat-card-subtitle>
       <hr>
       <mat-card-actions>
-        <mat-icon class="icon-favorite" (click)="toggleFavorite()">{{ iconFavorite }}</mat-icon>
+        <mat-icon class="icon-favorite" (click)="toggleFavorite(card)">{{ card.isFavorite }}</mat-icon>
         <mat-icon class="icon-share">code</mat-icon>
         <button>View Pack</button>
       </mat-card-actions>
     </mat-card>
-    <mat-card>
+    <!-- <mat-card>
       <img mat-card-image src="https://increasify.com.au/wp-content/uploads/2016/08/default-image.png">
       <mat-card-title>Cortado</mat-card-title>
       <mat-card-subtitle>
@@ -60,7 +60,7 @@
         <button>View Pack</button>
       </mat-card-actions>
     </mat-card>
-   
+    -->
   </div>
   <div class="button-div">
     <button>Browse Fonts</button>
