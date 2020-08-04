@@ -25,10 +25,10 @@ $ cd frontend
 $ npm i
 ```
 
-Após baixar as dependências:
+Após baixar as dependências, execute esse comando no terminal para rodar o servidor local:
 
 ```sh
 $ ng s
 ```
 
-Finalizando, apenas acesse **http://localhost:4200/**
+Finalizando, apenas acesse no seu navegador **http://localhost:4200/**
