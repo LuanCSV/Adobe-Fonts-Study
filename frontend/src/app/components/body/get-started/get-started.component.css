@@ -1,0 +1,45 @@
+section{
+    background-color: white;
+}
+.header-section{
+    text-align: center;
+    padding: 40px;
+}
+.header-section h3{
+    font-size: 35px;
+}
+.header-section p{
+    margin-top: 15px;
+    line-height: 1.7;
+    color: #767676;
+}
+.card{
+    width: 75%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+.card img{
+    width: 100%;
+}
+button{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    border: 2px solid#4b4b4b;
+    outline: none;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: #4b4b4b;
+    padding: 3px 12px;
+    transition: .2s;
+}
+button:hover{
+    background-color: #4b4b4b;
+    border: 2px solid#4b4b4b;
+    color: white;
+}
+@media (max-width: 700px){
+    br{
+        display: none;
+    }
+}
