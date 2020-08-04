@@ -1,0 +1,18 @@
+<section>
+  <div class="header-section">
+    <h3>Get on the right track with font packs</h3>
+    <p>Fonts that work together naturally, whether with a <br> project-themed focus or just for inspiration.</p>
+  </div>
+  <div class="cards">    
+    <mat-card *ngFor="let card of cards">
+      <img mat-card-image src="{{ card.packImg }}">
+      <mat-card-title>{{ card.packTitle }}</mat-card-title>
+      <mat-card-subtitle>{{ card.packSub }}</mat-card-subtitle>
+      <hr>
+      <mat-card-actions><button>View Pack</button></mat-card-actions>
+    </mat-card>
+  </div>
+  <div class="button-div">
+    <button>Explore Font Packs</button>
+  </div>
+</section>
