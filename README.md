@@ -31,4 +31,4 @@ Após baixar as dependências:
 $ ng s
 ```
 
-Finalizando, apenas acesse **http://localhost:4200/**
+Finalizando, apenas acesse **http://localhost:4200/** !!
